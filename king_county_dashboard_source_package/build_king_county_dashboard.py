@@ -41,7 +41,7 @@ from sklearn.tree import DecisionTreeRegressor
 
 OPENML_DATA_ID = 42092
 DEFAULT_TEMPLATE = Path(__file__).with_name("king_county_dashboard_template.html")
-DEFAULT_OUTPUT_NAME = "king_county_house_sales_dashboard_rebuilt.html"
+DEFAULT_OUTPUT_NAME = "king_county_house_sales_dashboard.html"
 
 
 def parse_args() -> argparse.Namespace:
